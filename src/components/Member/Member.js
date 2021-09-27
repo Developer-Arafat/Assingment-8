@@ -11,7 +11,7 @@ const Member = (props) => {
     <Card className="member-card">
       <img src={img} className="card-image" alt="" />
       <Card.Body className="bg-dark">
-        <Card.Title className="fw-bold text-primary">{name}</Card.Title>
+        <Card.Title className="fw-bold text-info">{name}</Card.Title>
         <div className="d-flex justify-content-between">
           <p>
             <b>Job:</b> {role}
@@ -23,10 +23,11 @@ const Member = (props) => {
         <p>
           <b>Working on:</b> {working}
         </p>
-        <p>
-          <b>Village:</b> {village}
-        </p>
-        <Button variant="info" onClick={() => props.handleCart(props.member)}>
+        <p></p>
+        <Button
+          variant="primary"
+          onClick={() => props.handleCart(props.member)}
+        >
           <FontAwesomeIcon icon={faCartPlus} /> Add Member
         </Button>
       </Card.Body>

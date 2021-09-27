@@ -7,8 +7,8 @@
 .member-card {
   margin-top: 30px;
   width: 18rem;
-  background-color: black !important;
-  color: antiquewhite;
+  background-color: #45555c !important;
+  color: rgb(184, 174, 161);
   text-align: center;
   border-radius: 5px;
 }

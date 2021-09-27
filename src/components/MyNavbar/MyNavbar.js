@@ -3,9 +3,9 @@ import { Container, Form, FormControl, Nav, Navbar } from "react-bootstrap";
 
 const MyNavbar = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Navbar bg="success" variant="dark" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand href="/home">Village Team</Navbar.Brand>
+        <Navbar.Brand href="/home">Anondo Foundation</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
