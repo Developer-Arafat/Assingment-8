@@ -6,7 +6,7 @@ import "./Member.css";
 
 const Member = (props) => {
   //   console.log(props.member);
-  const { img, name, role, salary, working, village } = props.member;
+  const { img, name, age, role, salary, working, village } = props.member;
   return (
     <Card className="member-card">
       <img src={img} className="card-image" alt="" />
@@ -18,6 +18,10 @@ const Member = (props) => {
           </p>
           <p>
             <b>Salary:</b> {salary}&#2547;
+          </p>
+
+          <p>
+            <b>AGE:</b> {age};
           </p>
         </div>
         <p>
